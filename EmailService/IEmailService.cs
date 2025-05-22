@@ -11,7 +11,7 @@ namespace RegisterNotify.EmailService
 
     public class EmailService : IEmailService
     {
-        private readonly EmailSettings _emailSettings;
+        public readonly EmailSettings _emailSettings;
 
         public EmailService(IOptions<EmailSettings> emailSettings)
         {
