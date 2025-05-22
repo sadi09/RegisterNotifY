@@ -9,7 +9,7 @@ using RegisterNotify.Data;
 using RegisterNotify.EmailService;
 using RegisterNotify.Models;
 
-namespace RegisterNotify.Views
+namespace RegisterNotify.Controllers
 {
     public class UsersController : Controller
     {
